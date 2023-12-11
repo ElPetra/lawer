@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,300;6..12,400;6..12,600;6..12,700;6..12,800;6..12,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <div class="header__top">
+        <div class="container header__wrapper">
+          <div class="header__contacts">
+            <a href="#" class="contact-link">
+              <svg
+                class="contact-link__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M13.3332 0.833252H6.6665C5.28317 0.833252 4.1665 1.94992 4.1665 3.33325V16.6666C4.1665 18.0499 5.28317 19.1666 6.6665 19.1666H13.3332C14.7165 19.1666 15.8332 18.0499 15.8332 16.6666V3.33325C15.8332 1.94992 14.7165 0.833252 13.3332 0.833252ZM14.1665 14.9999H5.83317V3.33325H14.1665V14.9999ZM11.6665 17.4999H8.33317V16.6666H11.6665V17.4999Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <span class="contact-link__text">+7 (922) 022-94-82</span>
+            </a>
+            <a href="#" class="contact-link_none">
+              <svg
+                class="contact-link__icon"
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 20 20"
+                fill="none"
+              >
+                <path
+                  d="M3.33317 16.6666C2.87484 16.6666 2.48234 16.5033 2.15567 16.1766C1.82901 15.8499 1.66595 15.4577 1.66651 14.9999V4.99992C1.66651 4.54159 1.82984 4.14909 2.15651 3.82242C2.48317 3.49575 2.87539 3.3327 3.33317 3.33325H16.6665C17.1248 3.33325 17.5173 3.49659 17.844 3.82325C18.1707 4.14992 18.3337 4.54214 18.3332 4.99992V14.9999C18.3332 15.4583 18.1698 15.8508 17.8432 16.1774C17.5165 16.5041 17.1243 16.6671 16.6665 16.6666H3.33317ZM9.99984 10.8333L3.33317 6.66659V14.9999H16.6665V6.66659L9.99984 10.8333ZM9.99984 9.16659L16.6665 4.99992H3.33317L9.99984 9.16659ZM3.33317 6.66659V4.99992V14.9999V6.66659Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <span class="contact-link__text">janis62@yahoo.com</span>
+            </a>
+          </div>
+          <button class="header__callme">Заказать звонок</button>
+        </div>
+      </div>
+      <div class="header__bottom">
+        <div class="container header__wrapper">
+          <div class="header__bottom__left">
+            <strong class="strong__title">Правозащитник</strong>
+            <p class="header__title">Юридическая компания</p>
+          </div>
+          <nav class="header__nav">
+            <a class="navigation" href="#">Услуги</a>
+            <a class="navigation" href="#">О компании</a>
+            <a class="navigation" href="#">Наши юристы</a>
+            <a class="navigation" href="#">Отзывы</a>
+            <a class="navigation" href="#">Новости</a>
+            <a class="navigation" href="#">Контакты</a>
+          </nav>
+          <button class="burger__btn">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+            >
+              <path
+                d="M3 4H21V6H3V4ZM9 11H21V13H9V11ZM3 18H21V20H3V18Z"
+                fill="white"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--Main-->
+      <section class="main">
+        <div class="container">
+          <div class="main__up">
+            <p class="main__title">
+              Оказываем весь комплекс<span class="main__title_blue"
+                >Юридических услуг</span
+              >
+            </p>
+            <p class="main__descr">
+              Давно выяснено, что при оценке дизайна и композиции читаемый текст
+              мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+              обеспечивает более или менее стандартное заполнение.
+            </p>
+            <button class="accent__btn main__btn">Наши услуги</button>
+          </div>
+          <div class="main__down">
+            <div class="scroll__left">
+              <span class="slider__page slider__page_active"></span>
+              <span class="slider__page"></span>
+              <span class="slider__page"></span>
+            </div>
+            <div class="scroll__right">
+              <button class="slider-buttons__prev">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="21"
+                  height="20"
+                  viewBox="0 0 21 20"
+                  fill="none"
+                >
+                  <path
+                    d="M14.3055 18.3333L5.97217 9.99996L14.3055 1.66663L15.7847 3.14579L8.9305 9.99996L15.7847 16.8541L14.3055 18.3333Z"
+                    fill="#E6E6E6"
+                  />
+                </svg>
+              </button>
+              <span class="slider-buttons__line"></span>
+              <button class="slider-buttons__next">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                >
+                  <path
+                    d="M6.68742 18.3333L5.20825 16.8541L12.0624 9.99996L5.20825 3.14579L6.68742 1.66663L15.0208 9.99996L6.68742 18.3333Z"
+                    fill="#E6E6E6"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Services-->
+      <section class="services">
+        <div class="container container__services">
+          <h2 class="services__title title">Наши услуги</h2>
+          <p class="services__text">
+            Давно выяснено, что при оценке дизайна и композиции читаемый текст
+            мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+            обеспечивает более или менее стандартное заполнение шаблона
+          </p>
+          <div class="services__articles">
+            <article class="service">
+              <svg class="article__icon">
+                xmlns="http://www.w3.org/2000/svg" width="36" height="35"
+                viewBox="0 0 36 35" fill="none"
+                <path
+                  d="M29.6665 5.83329V23.3333H12.1665V5.83329H29.6665ZM29.6665 2.91663H12.1665C10.5623 2.91663 9.24984 4.22913 9.24984 5.83329V23.3333C9.24984 24.9375 10.5623 26.25 12.1665 26.25H29.6665C31.2707 26.25 32.5832 24.9375 32.5832 23.3333V5.83329C32.5832 4.22913 31.2707 2.91663 29.6665 2.91663ZM18.6853 20.4166L13.6248 15.3125L15.6665 13.2562L18.6853 16.2895L26.1665 8.74996L28.2082 10.8062L18.6853 20.4166ZM6.33317 8.74996H3.4165V29.1666C3.4165 30.7708 4.729 32.0833 6.33317 32.0833H26.7498V29.1666H6.33317V8.74996Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <h3 class="article__title">Банкротство физических лиц</h3>
+              <p class="article__descr">
+                Процедуру банкротства физических лиц в России регулирует закон
+                «О несостоятельности (банкротстве)».
+              </p>
+              <div class="corner corner_tl"></div>
+              <div class="corner corner_tr"></div>
+              <div class="corner corner_br"></div>
+              <div class="corner corner_bl"></div>
+            </article>
+            <article class="service">
+              <svg class="article__icon">
+                xmlns="http://www.w3.org/2000/svg" width="36" height="35"
+                viewBox="0 0 36 35" fill="none"
+                <path
+                  d="M29.6665 5.83329V23.3333H12.1665V5.83329H29.6665ZM29.6665 2.91663H12.1665C10.5623 2.91663 9.24984 4.22913 9.24984 5.83329V23.3333C9.24984 24.9375 10.5623 26.25 12.1665 26.25H29.6665C31.2707 26.25 32.5832 24.9375 32.5832 23.3333V5.83329C32.5832 4.22913 31.2707 2.91663 29.6665 2.91663ZM18.6853 20.4166L13.6248 15.3125L15.6665 13.2562L18.6853 16.2895L26.1665 8.74996L28.2082 10.8062L18.6853 20.4166ZM6.33317 8.74996H3.4165V29.1666C3.4165 30.7708 4.729 32.0833 6.33317 32.0833H26.7498V29.1666H6.33317V8.74996Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <h3 class="article__title">Сопровождение сделок</h3>
+              <p class="article__descr">
+                Инициирование, оформление, осуществление сделки и достижение
+                результата — это именно то, чем мы занимаемся каждый день.
+              </p>
+              <div class="corner corner_tl"></div>
+              <div class="corner corner_tr"></div>
+              <div class="corner corner_br"></div>
+              <div class="corner corner_bl"></div>
+            </article>
+            <article class="service">
+              <svg class="article__icon">
+                xmlns="http://www.w3.org/2000/svg" width="36" height="35"
+                viewBox="0 0 36 35" fill="none"
+                <path
+                  d="M29.6665 5.83329V23.3333H12.1665V5.83329H29.6665ZM29.6665 2.91663H12.1665C10.5623 2.91663 9.24984 4.22913 9.24984 5.83329V23.3333C9.24984 24.9375 10.5623 26.25 12.1665 26.25H29.6665C31.2707 26.25 32.5832 24.9375 32.5832 23.3333V5.83329C32.5832 4.22913 31.2707 2.91663 29.6665 2.91663ZM18.6853 20.4166L13.6248 15.3125L15.6665 13.2562L18.6853 16.2895L26.1665 8.74996L28.2082 10.8062L18.6853 20.4166ZM6.33317 8.74996H3.4165V29.1666C3.4165 30.7708 4.729 32.0833 6.33317 32.0833H26.7498V29.1666H6.33317V8.74996Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <h3 class="article__title">Корпоративные споры</h3>
+              <p class="article__descr">
+                Корпоративные споры – споры, связанные с созданием юрлица,
+                управлением или участием в нем
+              </p>
+              <div class="corner corner_tl"></div>
+              <div class="corner corner_tr"></div>
+              <div class="corner corner_br"></div>
+              <div class="corner corner_bl"></div>
+            </article>
+            <article class="service">
+              <svg class="article__icon">
+                xmlns="http://www.w3.org/2000/svg" width="36" height="35"
+                viewBox="0 0 36 35" fill="none"
+                <path
+                  d="M29.6665 5.83329V23.3333H12.1665V5.83329H29.6665ZM29.6665 2.91663H12.1665C10.5623 2.91663 9.24984 4.22913 9.24984 5.83329V23.3333C9.24984 24.9375 10.5623 26.25 12.1665 26.25H29.6665C31.2707 26.25 32.5832 24.9375 32.5832 23.3333V5.83329C32.5832 4.22913 31.2707 2.91663 29.6665 2.91663ZM18.6853 20.4166L13.6248 15.3125L15.6665 13.2562L18.6853 16.2895L26.1665 8.74996L28.2082 10.8062L18.6853 20.4166ZM6.33317 8.74996H3.4165V29.1666C3.4165 30.7708 4.729 32.0833 6.33317 32.0833H26.7498V29.1666H6.33317V8.74996Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <h3 class="article__title">Недвижимость и строительство</h3>
+              <p class="article__descr">
+                Консультируем по различным вопросам в области недвижимости,
+                включая градостроительное регулирование, земельные отношения
+              </p>
+              <div class="corner corner_tl"></div>
+              <div class="corner corner_tr"></div>
+              <div class="corner corner_br"></div>
+              <div class="corner corner_bl"></div>
+            </article>
+            <article class="service">
+              <svg class="article__icon">
+                xmlns="http://www.w3.org/2000/svg" width="36" height="35"
+                viewBox="0 0 36 35" fill="none"
+                <path
+                  d="M29.6665 5.83329V23.3333H12.1665V5.83329H29.6665ZM29.6665 2.91663H12.1665C10.5623 2.91663 9.24984 4.22913 9.24984 5.83329V23.3333C9.24984 24.9375 10.5623 26.25 12.1665 26.25H29.6665C31.2707 26.25 32.5832 24.9375 32.5832 23.3333V5.83329C32.5832 4.22913 31.2707 2.91663 29.6665 2.91663ZM18.6853 20.4166L13.6248 15.3125L15.6665 13.2562L18.6853 16.2895L26.1665 8.74996L28.2082 10.8062L18.6853 20.4166ZM6.33317 8.74996H3.4165V29.1666C3.4165 30.7708 4.729 32.0833 6.33317 32.0833H26.7498V29.1666H6.33317V8.74996Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <h3 class="article__title">Возврат страховых премий</h3>
+              <p class="article__descr">
+                Для возврата страховой премии нужно подготовить следующий пакет
+                документов: паспорт страхователя; оригинал страхового полиса
+              </p>
+              <div class="corner corner_tl"></div>
+              <div class="corner corner_tr"></div>
+              <div class="corner corner_br"></div>
+              <div class="corner corner_bl"></div>
+            </article>
+            <article class="service">
+              <svg class="article__icon">
+                xmlns="http://www.w3.org/2000/svg" width="36" height="35"
+                viewBox="0 0 36 35" fill="none"
+                <path
+                  d="M29.6665 5.83329V23.3333H12.1665V5.83329H29.6665ZM29.6665 2.91663H12.1665C10.5623 2.91663 9.24984 4.22913 9.24984 5.83329V23.3333C9.24984 24.9375 10.5623 26.25 12.1665 26.25H29.6665C31.2707 26.25 32.5832 24.9375 32.5832 23.3333V5.83329C32.5832 4.22913 31.2707 2.91663 29.6665 2.91663ZM18.6853 20.4166L13.6248 15.3125L15.6665 13.2562L18.6853 16.2895L26.1665 8.74996L28.2082 10.8062L18.6853 20.4166ZM6.33317 8.74996H3.4165V29.1666C3.4165 30.7708 4.729 32.0833 6.33317 32.0833H26.7498V29.1666H6.33317V8.74996Z"
+                  fill="#4F8FF0"
+                />
+              </svg>
+              <h3 class="article__title">Налоговое право и споры</h3>
+              <p class="article__descr">
+                Сопровождение налоговых проверок на любой стадии, анализ и
+                подготовка документов, защита при налоговых спорах.
+              </p>
+              <div class="corner corner_tl"></div>
+              <div class="corner corner_tr"></div>
+              <div class="corner corner_br"></div>
+              <div class="corner corner_bl"></div>
+            </article>
+          </div>
+          <button class="accent__btn services__btn">Все услуги</button>
+        </div>
+      </section>
+      <!--Info-->
+      <section class="info">
+        <div class="container container__info">
+          <div class="info_content">
+            <h2 class="title info__title">
+              Юридическая компания
+              <span class="info__title_blue">правозащитник</span>
+            </h2>
+            <p class="info__descr">
+              Давно выяснено, что при оценке дизайна и композиции читаемый текст
+              мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+              обеспечивает более или менее стандартное заполнение.
+            </p>
+            <p class="info__descr">
+              Есть много вариантов Lorem Ipsum, но большинство из них имеет не
+              всегда приемлемые модификации, например, юмористические вставки
+              или слова, которые даже отдалённо не напоминают латынь. Если вам
+              нужен Lorem Ipsum для серьёзного проекта, вы наверняка не хотите
+              какой-нибудь шутки, скрытой в середине абзаца.
+            </p>
+            <p class="info__descr">
+              За прошедшие годы текст Lorem Ipsum получил много версий.
+              Некоторые версии появились по ошибке, некоторые - намеренно
+              (например, юмористические варианты).
+            </p>
+            <div class="buttons">
+              <button class="accent__btn info__btn">История компании</button>
+              <button class="grey__btn info__btn">Сертификаты</button>
+            </div>
+          </div>
+          <img
+            class="info__img"
+            src="./images/info/books.webp"
+            srcset="./images/info/books.webp 1x, ./images/info/books@2x.webp 2x"
+            alt="books"
+          />
+        </div>
+      </section>
+      <section class="lawers">
+        <div class="container container__lawers">
+          <h2 class="lawers__title title">Наши юристы</h2>
+          <p class="lawers__text">
+            Давно выяснено, что при оценке дизайна и композиции читаемый текст
+            мешает сосредоточиться. Lorem Ipsum используют потому, что тот
+            обеспечивает более или менее стандартное заполнение шаблона
+          </p>
+          <div class="lawers__articles">
+            <article class="lawer">
+              <img
+                class="photo"
+                src="./images/lawers/gorunova.webp"
+                alt="Горюнова"
+              />
+              <p class="surname">Горюнова Полина Алексеевна</p>
+              <p class="post">Юрист международного права</p>
+              <div class="lawer__info">
+                <div class="lawer__info__inside">
+                  <p class="surname">Горюнова Полина Алексеевна</p>
+                  <p class="post">Юрист международного права</p>
+                  <p class="about__lawer">
+                    Есть много вариантов Lorem Ipsum, но большинство из них
+                    имеет не всегда приемлемые модификации, например,
+                    юмористические вставки или слова, которые даже отдалённо не
+                    напоминают латынь.
+                  </p>
+                  <p class="experience">12 лет юридической практики</p>
+                  <div class="corner_small corner_tl"></div>
+                  <div class="corner_small corner_tr"></div>
+                  <div class="corner_small corner_br"></div>
+                  <div class="corner_small corner_bl"></div>
+                </div>
+              </div>
+            </article>
+            <article class="lawer">
+              <img
+                class="photo"
+                src="./images/lawers/mironov.webp"
+                alt="Миронов"
+              />
+              <p class="surname">Миронов Александр Германович</p>
+              <p class="post">Кредитный адвокат, банковский юрист</p>
+              <div class="lawer__info">
+                <div class="lawer__info__inside">
+                  <p class="surname">Миронов Александр Германович</p>
+                  <p class="post">Кредитный адвокат, банковский юрист</p>
+                  <p class="about__lawer">
+                    Есть много вариантов Lorem Ipsum, но большинство из них
+                    имеет не всегда приемлемые модификации, например,
+                    юмористические вставки или слова, которые даже отдалённо не
+                    напоминают латынь.
+                  </p>
+                  <p class="experience">10 лет юридической практики</p>
+                  <div class="corner_small corner_tl"></div>
+                  <div class="corner_small corner_tr"></div>
+                  <div class="corner_small corner_br"></div>
+                  <div class="corner_small corner_bl"></div>
+                </div>
+              </div>
+            </article>
+            <article class="lawer">
+              <img
+                class="photo"
+                src="./images/lawers/schestakova.webp"
+                alt="Шестакова"
+              />
+              <p class="surname">Шестакова Елизавета Егоровна</p>
+              <p class="post">Юридический консультант</p>
+              <div class="lawer__info">
+                <div class="lawer__info__inside">
+                  <p class="surname">Шестакова Елизавета Егоровна</p>
+                  <p class="post">Юридический консультант</p>
+                  <p class="about__lawer">
+                    Есть много вариантов Lorem Ipsum, но большинство из них
+                    имеет не всегда приемлемые модификации, например,
+                    юмористические вставки или слова, которые даже отдалённо не
+                    напоминают латынь.
+                  </p>
+                  <p class="experience">15 лет юридической практики</p>
+                  <div class="corner_small corner_tl"></div>
+                  <div class="corner_small corner_tr"></div>
+                  <div class="corner_small corner_br"></div>
+                  <div class="corner_small corner_bl"></div>
+                </div>
+              </div>
+            </article>
+            <article class="lawer">
+              <img
+                class="photo"
+                src="./images/lawers/archipov.webp"
+                alt="Архипов"
+              />
+              <p class="surname">Архипов Максим Константинович</p>
+              <p class="post">Корпоративный юрист</p>
+              <div class="lawer__info">
+                <div class="lawer__info__inside">
+                  <p class="surname">Архипов Максим Константинович</p>
+                  <p class="post">Корпоративный юрист</p>
+                  <p class="about__lawer">
+                    Есть много вариантов Lorem Ipsum, но большинство из них
+                    имеет не всегда приемлемые модификации, например,
+                    юмористические вставки или слова, которые даже отдалённо не
+                    напоминают латынь.
+                  </p>
+                  <p class="experience">17 лет юридической практики</p>
+                  <div class="corner_small corner_tl"></div>
+                  <div class="corner_small corner_tr"></div>
+                  <div class="corner_small corner_br"></div>
+                  <div class="corner_small corner_bl"></div>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="about__up">
+            <h2 class="title about__title">Что о нас говорят клиенты</h2>
+            <div class="scroll__right scroll__right_blue">
+              <button class="slider-buttons__prev">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="21"
+                  height="20"
+                  viewBox="0 0 21 20"
+                  fill="none"
+                >
+                  <path
+                    d="M14.3055 18.3333L5.97217 9.99996L14.3055 1.66663L15.7847 3.14579L8.9305 9.99996L15.7847 16.8541L14.3055 18.3333Z"
+                    fill="#E6E6E6"
+                  />
+                </svg>
+              </button>
+              <span
+                class="slider-buttons__line slider-buttons__line_blue"
+              ></span>
+              <button class="slider-buttons__next">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                >
+                  <path
+                    d="M6.68742 18.3333L5.20825 16.8541L12.0624 9.99996L5.20825 3.14579L6.68742 1.66663L15.0208 9.99996L6.68742 18.3333Z"
+                    fill="#E6E6E6"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="about__cards">
+            <!--Article 1-->
+            <article class="review">
+              <div class="review__up">
+                <div class="review__up__left">
+                  <img
+                    class="person"
+                    src="./images/reviews/woman.webp"
+                    alt="Person"
+                  />
+                  <div class="review__up__text">
+                    <span class="organisation">ООО “ИТ Консалтинг”</span>
+                    <span class="surname__about">Логинова Анастасия</span>
+                  </div>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="55"
+                  height="56"
+                  viewBox="0 0 55 56"
+                  fill="none"
+                >
+                  <g opacity="0.1">
+                    <path
+                      d="M50.5634 2.64844L39.5526 5.85068L44.0106 2.8332C41.1962 3.46914 37.6405 4.71309 33.1718 6.7208L25.8778 14.3252L28.4667 9.01318C25.9638 10.4054 23.3104 12.2305 20.7538 14.3682L19.0565 21.2754L18.6913 16.1621C16.1669 18.4824 13.7929 21.0605 11.8271 23.7783C9.76133 26.625 8.14678 29.6328 7.33789 32.6299L4.31719 30.6103C4.58789 33.1562 5.42471 35.3691 6.79756 37.3994L3.18604 36.293C4.00674 38.8174 5.34844 40.4502 7.61719 41.7715C6.34639 45.3486 5.7502 49.0869 5.10996 52.8145L7.08652 53.1475C9.37891 30.2988 25.5556 15.7324 40.1757 9.27852L40.9169 11.1455C27.8437 17 17.6815 26.8828 12.3642 41.127C14.3085 41.1377 16.2099 40.9014 17.9716 40.4502L18.4979 33.9082L19.9052 39.8701C21.0761 39.4404 22.1503 38.9248 23.1063 38.3232L20.8827 33.6504L24.4062 37.3887C25.2655 36.7012 25.9745 35.9277 26.5116 35.0791C29.7772 29.9766 33.1933 24.9062 39.9179 20.6631L35.0087 18.9229L42.539 19.1484C43.7636 18.5254 45.0526 17.7627 46.0302 17.043L40.6913 16.6133L48.7157 14.7227C49.3388 14.0996 49.9188 13.4443 50.4452 12.7891C52.3036 10.4322 53.5604 7.97871 53.2597 5.74756C53.12 4.63145 52.454 3.58193 51.369 2.99434C51.1005 2.85469 50.8105 2.73115 50.5634 2.64844Z"
+                      fill="#222222"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <p class="review_descr">
+                Многие думают, что Lorem Ipsum - взятый с потолка
+                псевдо-латинский набор слов, но это не совсем так. Его корни
+                уходят в один фрагмент классической латыни 45 года н.э., то есть
+                более двух тысячелетий назад. Ричард МакКлинток, профессор
+                латыни из колледжа Hampden-Sydney, штат Вирджиния, взял одно из
+                самых странных слов Ричард МакКлинток, профессор латыни из
+                колледжа Hampden-Sydney, штат Вирджиния, взял одно из самых
+                странных слов
+              </p>
+            </article>
+            <!--Article 2-->
+            <article class="review">
+              <div class="review__up">
+                <div class="review__up__left">
+                  <img
+                    class="person"
+                    src="./images/reviews/man.webp"
+                    alt="Person"
+                  />
+                  <div class="review__up__text">
+                    <span class="organisation">АО “ПРОМАРШ”</span>
+                    <span class="surname__about">Макаров Сергей</span>
+                  </div>
+                </div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="55"
+                  height="56"
+                  viewBox="0 0 55 56"
+                  fill="none"
+                >
+                  <g opacity="0.1">
+                    <path
+                      d="M50.5634 2.64844L39.5526 5.85068L44.0106 2.8332C41.1962 3.46914 37.6405 4.71309 33.1718 6.7208L25.8778 14.3252L28.4667 9.01318C25.9638 10.4054 23.3104 12.2305 20.7538 14.3682L19.0565 21.2754L18.6913 16.1621C16.1669 18.4824 13.7929 21.0605 11.8271 23.7783C9.76133 26.625 8.14678 29.6328 7.33789 32.6299L4.31719 30.6103C4.58789 33.1562 5.42471 35.3691 6.79756 37.3994L3.18604 36.293C4.00674 38.8174 5.34844 40.4502 7.61719 41.7715C6.34639 45.3486 5.7502 49.0869 5.10996 52.8145L7.08652 53.1475C9.37891 30.2988 25.5556 15.7324 40.1757 9.27852L40.9169 11.1455C27.8437 17 17.6815 26.8828 12.3642 41.127C14.3085 41.1377 16.2099 40.9014 17.9716 40.4502L18.4979 33.9082L19.9052 39.8701C21.0761 39.4404 22.1503 38.9248 23.1063 38.3232L20.8827 33.6504L24.4062 37.3887C25.2655 36.7012 25.9745 35.9277 26.5116 35.0791C29.7772 29.9766 33.1933 24.9062 39.9179 20.6631L35.0087 18.9229L42.539 19.1484C43.7636 18.5254 45.0526 17.7627 46.0302 17.043L40.6913 16.6133L48.7157 14.7227C49.3388 14.0996 49.9188 13.4443 50.4452 12.7891C52.3036 10.4322 53.5604 7.97871 53.2597 5.74756C53.12 4.63145 52.454 3.58193 51.369 2.99434C51.1005 2.85469 50.8105 2.73115 50.5634 2.64844Z"
+                      fill="#222222"
+                    />
+                  </g>
+                </svg>
+              </div>
+              <p class="review_descr">
+                Если вам нужен Lorem Ipsum для серьёзного проекта, вы наверняка
+                не хотите какой-нибудь шутки, скрытой в середине абзаца. Также
+                все другие известные генераторы Lorem Ipsum используют один и
+                тот же текст, который они просто повторяют, пока не достигнут
+                нужный объём.
+              </p>
+            </article>
+          </div>
+          <div class="buttons">
+            <button class="accent__btn info__btn">Все отзывы</button>
+            <button class="grey__btn info__btn">Написать отзыв</button>
+          </div>
+        </div>
+      </section>
+      <section class="materials">
+        <div class="container">
+          <article class="material">
+            <div class="material__up">
+              <div class="eye">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="20"
+                  viewBox="0 0 22 20"
+                  fill="none"
+                >
+                  <path
+                    d="M20.6098 9.7875C19.8533 7.88603 18.5399 6.24164 16.8321 5.05755C15.1243 3.87347 13.0968 3.20161 11.0003 3.125C8.90381 3.20161 6.87635 3.87347 5.16852 5.05755C3.4607 6.24164 2.14737 7.88603 1.39086 9.7875C1.33977 9.92482 1.33977 10.0752 1.39086 10.2125C2.14737 12.114 3.4607 13.7584 5.16852 14.9424C6.87635 16.1265 8.90381 16.7984 11.0003 16.875C13.0968 16.7984 15.1243 16.1265 16.8321 14.9424C18.5399 13.7584 19.8533 12.114 20.6098 10.2125C20.6609 10.0752 20.6609 9.92482 20.6098 9.7875ZM11.0003 15.625C7.59134 15.625 3.9894 13.1687 2.6837 10C3.9894 6.83125 7.59134 4.375 11.0003 4.375C14.4093 4.375 18.0112 6.83125 19.3169 10C18.0112 13.1687 14.4093 15.625 11.0003 15.625Z"
+                    fill="#4F8FF0"
+                  />
+                  <path
+                    d="M11.0003 6.25C10.2371 6.25 9.49091 6.46993 8.85627 6.88199C8.22162 7.29404 7.72698 7.87971 7.43488 8.56494C7.14279 9.25016 7.06636 10.0042 7.21527 10.7316C7.36418 11.459 7.73173 12.1272 8.27146 12.6517C8.81118 13.1761 9.49883 13.5333 10.2474 13.6779C10.9961 13.8226 11.772 13.7484 12.4772 13.4645C13.1824 13.1807 13.7851 12.7001 14.2092 12.0834C14.6332 11.4667 14.8596 10.7417 14.8596 10C14.8596 9.00544 14.453 8.05161 13.7292 7.34835C13.0055 6.64509 12.0239 6.25 11.0003 6.25ZM11.0003 12.5C10.4915 12.5 9.99406 12.3534 9.57096 12.0787C9.14786 11.804 8.8181 11.4135 8.62337 10.9567C8.42864 10.4999 8.37769 9.99723 8.47696 9.51227C8.57623 9.02732 8.82127 8.58186 9.18108 8.23223C9.5409 7.8826 9.99933 7.6445 10.4984 7.54804C10.9975 7.45157 11.5148 7.50108 11.9849 7.6903C12.455 7.87952 12.8569 8.19995 13.1396 8.61107C13.4223 9.0222 13.5732 9.50555 13.5732 10C13.5732 10.663 13.3021 11.2989 12.8196 11.7678C12.3371 12.2366 11.6827 12.5 11.0003 12.5Z"
+                    fill="#4F8FF0"
+                  />
+                </svg>
+              </div>
+              <img src="./images/materials/city.webp" alt="city" />
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

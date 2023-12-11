@@ -1,0 +1,24 @@
+.scroll__right {
+  @include flex-row-sb-aic;
+  gap: 8px;
+}
+.scroll__left {
+  @include flex-row-sb-aife;
+  gap: 8px;
+}
+.slider-buttons__line {
+  width: 2px;
+  height: 30px;
+  background-color: $secondary-text-color;
+  transform: rotate(25deg);
+}
+.slider__page {
+  width: 4px;
+  height: 24px;
+  background-color: $secondary-text-color;
+}
+.slider__page_active {
+  background-color: $accent-color;
+  width: 4px;
+  height: 40px;
+}

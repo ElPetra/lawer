@@ -1,0 +1,12 @@
+.corner_small {
+  opacity: 1;
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  border-top: 1px $accent-color solid;
+  border-left: 1px $accent-color solid;
+}
+.lawer__info:hover  {
+  cursor: url("../images/cursor.svg"), auto;
+}
+

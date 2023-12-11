@@ -1,0 +1,44 @@
+.info {
+    padding: 80px 0;
+    gap: 64px;
+}
+.container__info {
+  @include flex-row-sb-ais;
+}
+.info__title::after {
+  margin-left: 0;
+}
+.info__title_blue {
+  color: $accent-color;
+}
+.info__title{
+    justify-content: start;
+}
+.info__descr {
+  color: $main-text-color;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  max-width: 720px;
+  margin-top: 24px;
+}
+.info_content {
+  @include flex-col-ais;
+}
+.info__img {
+  align-items: flex-start;
+  object-fit: contain;
+}
+@media (max-width: 1210px) {
+.info__img {
+    display: none;
+    }
+}
+@media (max-width: 758px) {
+    .info__descr {
+        font-size: 14px;
+    }
+    .info__img {
+    display: none;
+    }
+}

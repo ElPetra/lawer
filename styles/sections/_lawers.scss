@@ -1,0 +1,75 @@
+.lawers {
+  padding: 80px 0;
+  background-color: #f7f7f7;
+}
+.container__lawers {
+  @include flex-col-sb-aic;
+}
+.lawers__articles {
+  @include flex-row-sb-aic;
+  margin-top: 48px;
+  gap: 24px;
+}
+.lawer {
+  height: 414px;
+  background-color: $secondary-text-color;
+  min-width: 250px;
+  width: 100%;
+  position: relative;
+}
+.lawer__info {
+  display: flex;
+  background-color: $secondary-text-color;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  align-items: center;
+  padding: 0 20px;
+  opacity: 0;
+}
+.photo {
+  background: lightgrey;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 320px;
+}
+.lawers__text {
+  max-width: 920px;
+  text-align: center;
+}
+.surname {
+  margin-top: 24px;
+  color: $main-text-color;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.post {
+  margin-top: 10px;
+  color: $main-text-color;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 120%;
+  text-transform: lowercase;
+}
+.about__lawer {
+  text-align: center;
+  margin-top: 40px;
+}
+.experience {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.lawer:hover .lawer__info{
+    opacity: 1;
+}
+@media (max-width: 1210px) {
+  .lawers__articles {
+  overflow: scroll;
+  max-width: 100%;
+  }
+}

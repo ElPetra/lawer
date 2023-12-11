@@ -1,0 +1,39 @@
+.accent__btn {
+  background: $accent-color;
+  padding: 16px 24px;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: $secondary-text-color;
+  border: $accent-color 2px solid;
+}
+.slider-buttons__prev,
+.slider-buttons__next {
+  @include flex-aic-jcc;
+}
+.accent__btn:hover {
+  color: $accent-color;
+  background-color: $secondary-text-color;
+  border: $accent-color 2px solid;
+}
+.grey__btn {
+  background: #e6e6e6;
+  padding: 16px 24px;
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: $main-text-color;
+  border: #e6e6e6 2px solid;
+}
+.buttons {
+  @include flex-jcs-aic;
+  width: 100%;
+  gap: 24px;
+  margin-top: 32px;
+}
+.grey__btn:hover {
+  background-color: $secondary-text-color;
+  border: #E6E6E6 2px solid;
+}

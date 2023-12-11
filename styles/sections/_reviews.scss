@@ -1,0 +1,79 @@
+.about {
+  background: #fff url("../images/reviews/backgroung.webp") no-repeat
+    center/cover;
+  padding: 80px 0;
+}
+.about__up {
+  @include flex-row-sb-aic;
+}
+.about__cards {
+    @include flex-row-sb-aic;
+    gap: 24px;
+}
+.review {
+  max-width: 648px;
+  background-color: $secondary-text-color;
+  padding: 32px;
+}
+.review__up {
+  @include flex-row-sb-aic;
+}
+.review__up__left {
+  display: flex;
+  flex-direction: row;
+}
+.review__up__text {
+  @include flex-col-sb-aic;
+  margin-left: 24px;
+}
+.about__title::after {
+  margin-left: 0;
+}
+.scroll__right_blue path {
+  fill: $accent-color;
+}
+.slider-buttons__line_blue {
+  background-color: $accent-color;
+}
+.organisation {
+  margin-top: 14.5px;
+  color: $main-text-color;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 120%;
+}
+.surname__about {
+  margin-top: 4px;
+  color: $main-text-color;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 150%;
+}
+.review_descr {
+  color: $main-text-color;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  margin-top: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;           
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@media (max-width: 1210px) {
+  .review {
+  overflow: scroll;
+//   max-width: 576px;
+  }
+}
+
+@media (max-width: 834px) {
+  .about__cards {
+  overflow: scroll;
+  }
+}
+@media (max-width: 834px) {
+    .review {
+        max-width: 576px;
+    }
